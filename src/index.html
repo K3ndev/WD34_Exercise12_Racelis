@@ -1,0 +1,597 @@
+<!-- this is the home page -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="./logo.png" />
+    <title>Kanime | Ken Collection</title>
+  </head>
+  <body class="bg-black-color">
+    <!-- header -->
+    <header class="height-1">
+      <div
+        style="border-bottom: 1px solid rgba(255, 255, 255, 0.25)"
+        class="w-100 navbar navbar-expand-lg fixed-top bg-black-color"
+      >
+        <nav class="container-xl">
+          <!-- left logo -->
+          <div
+            class="waviy navbar-brand condensed-font font-color-50 d-flex align-items-end fs-3 fw-bolder cursor-pointer"
+          >
+            <span style="--i: 1">K</span>
+            <span style="--i: 2">A</span>
+            <span style="--i: 3">N</span>
+            <span style="--i: 4">I</span>
+            <span style="--i: 5">M</span>
+            <span style="--i: 6">E</span>
+          </div>
+
+          <!-- mobile right hamburger menu -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="color: transparent"
+          >
+            <i class="bi bi-list font-color-50-400"></i>
+          </button>
+
+          <!-- nav list right -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav w-100 justify-content-end">
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-6 font-color-50-400 border-ken-top"
+                  href="#collection"
+                  >1.Collection</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6 font-color-50-400" href="#">2.News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6 font-color-50-400" href="#contact"
+                  >3.Contact</a
+                >
+              </li>
+              <li
+                class="nav-item mt-4 mb-3 mt-md-0 mb-md-0 d-flex align-items-center justify-content-center"
+              >
+                <a class="btn-pink fs-6">Share My Collection</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main class="container-xl px-2 px-md-3 px-lg-4">
+      <div
+        class="height-2 mx-2 mt-4 mt-md-5 mt-lg-5"
+        style="margin-bottom: 5rem"
+      >
+        <section
+          class="carousel-custom"
+          style="border: transparent 0px solid !important"
+        >
+          <!-- carousel -->
+          <div
+            id="carousel_hero"
+            class="carousel slide"
+            data-bs-ride="false"
+            data-bs-interval="false"
+          >
+            <div class="carousel-inner">
+              <!-- 1 -->
+              <div class="carousel-item active carousel-item-custom">
+                <img
+                  src="/serial_experiment.webp"
+                  class="d-block w-100"
+                  alt="serial_experiments"
+                />
+                <div class="carousel-caption">
+                  <i
+                    class="bi bi-play-circle-fill play"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal1"
+                  ></i>
+                  <p class="fs-4">Serial Experiment</p>
+
+                  <!-- modal -->
+                  <div class="modal fade" id="modal1">
+                    <div
+                      class="modal-dialog modal-lg modal-dialog-centered-custom"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header p-0 px-2">
+                          <h1 class="modal-title fs-5" id="modal1">Trailer</h1>
+                          <i
+                            class="bi bi-x-lg"
+                            data-bs-dismiss="modal"
+                            style="cursor: pointer; font-size: 1.5rem"
+                          ></i>
+                        </div>
+                        <div
+                          class="modal-body p-0"
+                          style="aspect-ratio: 16 / 9"
+                        >
+                          <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube-nocookie.com/embed/t5y4nQ5Y1V8?controls=0&mute=1"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="carousel-item carousel-item-custom">
+                <img
+                  src="/violet_evergarden.webp"
+                  class="d-block w-100"
+                  alt="violet_evergarden "
+                />
+                <div class="carousel-caption">
+                  <i
+                    class="bi bi-play-circle-fill play"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal2"
+                  ></i>
+                  <p class="fs-4">Violet Evergarden</p>
+
+                  <!-- modal -->
+                  <div class="modal fade" id="modal2">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header p-0 pe-2">
+                          <h1 class="modal-title fs-5" id="modal2">Trailer</h1>
+                          <i
+                            class="bi bi-x-lg"
+                            data-bs-dismiss="modal"
+                            style="cursor: pointer; font-size: 1.5rem"
+                          ></i>
+                        </div>
+                        <div
+                          class="modal-body p-0"
+                          style="aspect-ratio: 16 / 9"
+                        >
+                          <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube-nocookie.com/embed/BUfSen2rYQs?controls=0&mute=1"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="carousel-item carousel-item-custom">
+                <img
+                  src="/death_parade.webp"
+                  class="d-block w-100"
+                  alt="death_parade"
+                />
+                <div class="carousel-caption">
+                  <i
+                    class="bi bi-play-circle-fill play"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal3"
+                  ></i>
+                  <p class="fs-4">Death Parade</p>
+
+                  <!-- modal -->
+                  <div class="modal fade" id="modal3">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header p-0 pe-2">
+                          <h1 class="modal-title fs-5" id="modal3">Trailer</h1>
+                          <i
+                            class="bi bi-x-lg"
+                            data-bs-dismiss="modal"
+                            style="cursor: pointer; font-size: 1.5rem"
+                          ></i>
+                        </div>
+                        <div
+                          class="modal-body p-0"
+                          style="aspect-ratio: 16 / 9"
+                        >
+                          <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube-nocookie.com/embed/ZaIatel6BHI?controls=0&mute=1"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="carousel-item carousel-item-custom">
+                <img
+                  src="/death_note.webp"
+                  class="d-block w-100"
+                  alt="death_note"
+                />
+                <div class="carousel-caption">
+                  <i
+                    class="bi bi-play-circle-fill play"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal4"
+                  ></i>
+                  <p class="fs-4">Death Note</p>
+
+                  <!-- modal -->
+                  <div class="modal fade" id="modal4">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header p-0 pe-2">
+                          <h1 class="modal-title fs-5" id="modal4">Trailer</h1>
+                          <i
+                            class="bi bi-x-lg"
+                            data-bs-dismiss="modal"
+                            style="cursor: pointer; font-size: 1.5rem"
+                          ></i>
+                        </div>
+                        <div
+                          class="modal-body p-0"
+                          style="aspect-ratio: 16 / 9"
+                        >
+                          <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube-nocookie.com/embed/NlJZ-YgAt-c?controls=0&mute=1"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 5 -->
+              <div class="carousel-item carousel-item-custom">
+                <img
+                  src="/code_geass.webp"
+                  class="d-block w-100"
+                  alt="code_geass"
+                />
+                <div class="carousel-caption">
+                  <i
+                    class="bi bi-play-circle-fill play"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal5"
+                  ></i>
+                  <p class="fs-4">Code Geass</p>
+
+                  <!-- modal -->
+                  <div class="modal fade" id="modal5">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header p-0 pe-2">
+                          <h1 class="modal-title fs-5" id="modal5">Trailer</h1>
+                          <i
+                            class="bi bi-x-lg"
+                            data-bs-dismiss="modal"
+                            style="cursor: pointer; font-size: 1.5rem"
+                          ></i>
+                        </div>
+                        <div
+                          class="modal-body p-0"
+                          style="aspect-ratio: 16 / 9"
+                        >
+                          <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube-nocookie.com/embed/v-AGjx0N24U?controls=0&mute=1"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 6 -->
+              <div class="carousel-item carousel-item-custom">
+                <img
+                  src="/overlord.webp"
+                  class="d-block w-100"
+                  alt="overlord"
+                />
+                <div class="carousel-caption">
+                  <i
+                    class="bi bi-play-circle-fill play"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal6"
+                  ></i>
+                  <p class="fs-4">Overlord</p>
+
+                  <div class="modal fade" id="modal6">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header p-0 pe-2">
+                          <h1 class="modal-title fs-5" id="modal6">Trailer</h1>
+                          <i
+                            class="bi bi-x-lg"
+                            data-bs-dismiss="modal"
+                            style="cursor: pointer; font-size: 1.5rem"
+                          ></i>
+                        </div>
+                        <div
+                          class="modal-body p-0"
+                          style="aspect-ratio: 16 / 9"
+                        >
+                          <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube-nocookie.com/embed/uhlBqFj9kDw?controls=0&mute=1"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- 7 -->
+              <div class="carousel-item carousel-item-custom">
+                <img
+                  src="/soul_eater.webp"
+                  class="d-block w-100"
+                  alt="soul_eater"
+                />
+                <div class="carousel-caption">
+                  <i
+                    class="bi bi-play-circle-fill play"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal7"
+                  ></i>
+                  <p class="fs-4">Soul Eater</p>
+
+                  <!-- modal -->
+                  <div class="modal fade" id="modal7">
+                    <div class="modal-dialog modal-lg modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header p-0 pe-2">
+                          <h1 class="modal-title fs-5" id="modal7">Trailer</h1>
+                          <i
+                            class="bi bi-x-lg"
+                            data-bs-dismiss="modal"
+                            style="cursor: pointer; font-size: 1.5rem"
+                          ></i>
+                        </div>
+                        <div
+                          class="modal-body p-0"
+                          style="aspect-ratio: 16 / 9"
+                        >
+                          <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube-nocookie.com/embed/zzJ8U8OtEsE?controls=0&mute=1"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                          ></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- button -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carousel_hero"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carousel_hero"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="mx-2 mb-3 mb-md-4 mb-lg-5" id="collection">
+        <div class="mb-4">
+          <div class="hr"></div>
+          <h3
+            class="py-3 m-0 d-flex font-color-50 justify-content-center text-shadow-pink-head"
+          >
+            My collection
+          </h3>
+          <div class="hr"></div>
+        </div>
+
+        <div>
+          <div class="w-100 d-flex justify-content-between">
+            <h4 class="font-color-300-200 text-shadow-pink">My favorite</h4>
+            <p class="cursor-pointer fs-6 font-p">View All</p>
+          </div>
+          <div class="row">
+            <!-- item 1 -->
+            <div class="col-6 col-md-4 col-lg-3 mb-3 mb-lg-0">
+              <div class="card">
+                <div>
+                  <img
+                    src="./serial_experiment.webp"
+                    class="card-img-top collection-image cursor-pointer"
+                    alt="..."
+                    style="aspect-ratio: 0.8"
+                  />
+                </div>
+                <div
+                  class="card-body"
+                  style="background-color: transparent !important"
+                >
+                  <p class="card-text text-no-wrap text-indent">
+                    We're all connected... There is the world around us, a world
+                    of people, tactile sensation, and culture. There is the
+                    wired world, inside the computer, of images, personalities,
+                    virtual experiences, and a culture all of its own.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- item 2 -->
+            <div class="col-6 col-md-4 col-lg-3 mb-3 mb-lg-0">
+              <div class="card">
+                <div>
+                  <img
+                    src="./violet_evergarden.webp"
+                    class="card-img-top collection-image cursor-pointer"
+                    alt="..."
+                    style="aspect-ratio: 0.8"
+                  />
+                </div>
+                <div
+                  class="card-body"
+                  style="background-color: transparent !important"
+                >
+                  <p class="card-text text-no-wrap text-indent">
+                    The great war which divided the continent into North and
+                    South has ended after four years, and the people are
+                    welcoming a new generation.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- item 3-->
+            <div class="col-6 col-md-4 col-lg-3 mb-3 mb-lg-0">
+              <div class="card">
+                <div>
+                  <img
+                    src="./death_parade.webp"
+                    class="card-img-top collection-image cursor-pointer"
+                    alt="..."
+                    style="aspect-ratio: 0.8"
+                  />
+                </div>
+                <div
+                  class="card-body"
+                  style="background-color: transparent !important"
+                >
+                  <p class="card-text text-no-wrap text-indent">
+                    When two people die at the same time, they’re sent to a
+                    place that’s neither heaven nor hell—a lavish bar between
+                    worlds where the stakes are high and the rules are simple:
+                    if you win you live again, if you die… you’re gone for good.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- item -->
+            <div
+              class="col-6 col-md-4 col-lg-3 mb-3 mb-lg-0 d-md-none d-lg-block"
+            >
+              <div class="card">
+                <div>
+                  <img
+                    src="./death_note.webp"
+                    class="card-img-top collection-image cursor-pointer"
+                    alt="..."
+                    style="aspect-ratio: 0.8"
+                  />
+                </div>
+                <div
+                  class="card-body"
+                  style="background-color: transparent !important"
+                >
+                  <p class="card-text text-no-wrap text-indent">
+                    Light Yagami is a genius high school student who is about to
+                    learn about life through a book of death. When a bored
+                    shinigami, a God of Death, named Ryuk drops a black notepad
+                    called a Death Note, Light receives power over life and
+                    death with the stroke of a pen.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- end -->
+          </div>
+        </div>
+      </section>
+
+      <!-- forum -->
+      <section></section>
+
+      <!-- contact -->
+      <section
+        class="w-100 d-flex justify-content-center mb-3 mb-md-4 mb-lg-5"
+        id="contact"
+      >
+        <div class="text-center w-100 contact-container">
+          <h5 class="fs-2 font-color-50 mb-3">Get in touch</h5>
+          <button class="btn-pink-contact mb-2">Email Me</button>
+          <p class="text-shadow">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque
+            perferendis
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-1 py-lg-2">
+      <div class="container-md d-flex justify-content-center align-item-center">
+        <div class="fs-6 font-color-300-200">Build by me ©2022</div>
+      </div>
+    </footer>
+
+    <!-- js bootstrap -->
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+/* Import all of Bootstraps CSS */
+@import "~bootstrap/scss/bootstrap";
+
+/* layout */
+@import "./layout/root.scss";
+
+/* color */
+@import "./abstracts/color.scss";
+
+/* typography */
+@import "./abstracts/typography.scss";
+
+/* page */
+@import "./pages/home.scss";

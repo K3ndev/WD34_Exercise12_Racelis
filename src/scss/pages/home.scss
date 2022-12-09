@@ -1,0 +1,195 @@
+// default
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #e6007a;
+  background: #70033d;
+}
+
+::selection {
+  color: #e6007a;
+  background: #70033d;
+}
+
+//
+
+// header
+.height-1 {
+  height: 7.5vh;
+}
+.navbar-toggler {
+  border-color: transparent !important;
+}
+.logo-animation::first-letter {
+  color: #e6007a;
+}
+.logo-animation:hover {
+  display: none;
+}
+// animation logo
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  animation: flip 2s 1;
+  animation-delay: calc(0.2s * var(--i));
+}
+// this is weird when it hover it will swing then it will repeat the rotation thing [it depends on how many character you hover].
+.waviy span:hover {
+  animation: swing;
+}
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
+.btn-pink {
+  text-decoration: none;
+  padding: 0.4375rem 1.5rem;
+  display: inline;
+  color: #e6007a;
+  border: #e6007a solid 1px;
+  cursor: pointer;
+}
+.btn-pink:hover {
+  color: #f8fafc;
+  background-color: #e6007b65;
+  border-style: ridge !important;
+}
+.border-ken-top {
+  border-top: 1px solid #434242;
+}
+@media (min-width: 992px) {
+  .border-ken-top {
+    border-top: 0;
+  }
+}
+
+// modal
+.modal {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+}
+.modal-content {
+  background-color: transparent !important;
+  border: 1px solid transparent !important;
+}
+.modal-header {
+  border-bottom: 1px solid transparent !important;
+}
+.hr {
+  height: 1px;
+  background: linear-gradient(90deg, #3b0120 0, #790141 50%, #3b0120);
+}
+
+.modal-dialog-centered-custom {
+  display: flex;
+  align-items: end !important;
+  min-height: calc(100% - var(--bs-modal-margin) * 2);
+  padding-bottom: 8rem;
+}
+
+// carousel
+.carousel-custom {
+  box-shadow: 0px 12px 34px -7px rgba(230, 0, 122, 0.27);
+  -webkit-box-shadow: 0px 12px 34px -7px rgba(230, 0, 122, 0.27);
+  -moz-box-shadow: 0px 12px 34px -7px rgba(230, 0, 122, 0.27);
+}
+.carousel-item-custom {
+  width: 100%;
+  aspect-ratio: 0.8;
+}
+
+.carousel-item-custom img {
+  height: 100%;
+  object-fit: cover;
+}
+
+// size of play button [...,md,lg]
+.carousel-caption p {
+  color: #f3efe0;
+}
+.play {
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #dee2e6;
+}
+.play:hover {
+  color: #f3efe0;
+
+  display: inline-block;
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+
+// contact
+.btn-pink-contact {
+  text-decoration: none;
+  background-color: black;
+  padding: 0.4375rem 1.5rem;
+  display: inline;
+  color: #e6007a;
+  border: #e6007a solid 1px;
+  cursor: pointer;
+}
+.btn-pink-contact:hover {
+  color: #f8fafc;
+  background-color: #e6007b65;
+  border-style: ridge !important;
+}
+.contact-container {
+  max-width: 60%;
+}
+
+// collection image
+.collection-image {
+  height: 100% !important;
+  object-fit: cover !important;
+}
+.card {
+  border-width: 0px !important;
+  background-color: #f8fafc !important;
+}
+
+// breakpoint
+@media (min-width: 768px) {
+  .play {
+    font-size: 3rem;
+  }
+  .modal-dialog-centered-custom {
+    align-items: center !important;
+    padding-bottom: 0px;
+  }
+  .btn-pink {
+    margin-left: 2rem;
+    background-color: black;
+  }
+  .carousel-item-custom {
+    aspect-ratio: 0;
+  }
+  .contact-container {
+    max-width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .play {
+    font-size: 3.5rem;
+  }
+  .contact-container {
+    max-width: 33%;
+  }
+}
+
+// special
+@media (min-width: 1400px) {
+  .height-2 {
+    height: 92.5vh;
+    margin-bottom: 0px !important;
+  }
+}

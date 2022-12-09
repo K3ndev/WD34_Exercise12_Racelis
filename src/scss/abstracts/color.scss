@@ -1,0 +1,46 @@
+// font color
+// using important is bad code
+.font-color-400 {
+  color: #e6007a !important;
+}
+.font-color-50-400 {
+  color: #f8fafc !important;
+}
+.font-color-50-400:hover {
+  color: #e6007a !important;
+  transition: 1s;
+}
+.font-color-50 {
+  color: #f9fafb !important;
+}
+.font-color-100 {
+  color: #f1f5f9 !important;
+}
+.font-color-300-200 {
+  color: #cbd5e1 !important;
+}
+.font-color-300-200:hover {
+  color: #e2e8f0 !important;
+}
+.font-p {
+  color: #8a8f94 !important;
+}
+.font-p:hover {
+  color: #e2e8f0 !important;
+}
+.text-shadow {
+  color: #212529 !important;
+}
+
+// bg color
+.bg-black-color {
+  background-color: #000000 !important;
+}
+
+// text shadow pink
+.text-shadow-pink {
+  text-shadow: 0px 3px 2px rgba(160, 2, 86, 0.43);
+}
+.text-shadow-pink-head {
+  text-shadow: 0px 5px 2px rgba(150, 20, 89, 0.43);
+}
